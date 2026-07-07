@@ -1,3 +1,1 @@
-# テストページ
-# 高橋　翔太郎
-# Shotaro Takahashi
+# Takahashi Laboratory - Website
