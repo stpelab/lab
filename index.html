@@ -28,6 +28,30 @@
             display: inline-block;
             margin-top: 10px;
         }
+        .banner-section {
+            margin: 40px 0 20px;
+            text-align: center;
+        }
+        .banner-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .banner-container img {
+            max-width: 280px;
+            height: auto;
+            border: 1px solid #ccc;
+        }
+        footer {
+            margin-top: 30px;
+            padding-top: 15px;
+            border-top: 1px solid #ccc;
+            text-align: center;
+            font-size: 0.9em;
+            color: #555;
+        }
     </style>
 </head>
 <body>
@@ -66,5 +90,21 @@
         <h2>Contact</h2>
         <p>takahashi.shotaro(at)nitech.ac.jp</p>
     </div>
+
+    <div class="banner-section">
+        <div class="banner-container">
+            <a href="https://keirin.jp/pc/top" target="_blank" rel="noopener noreferrer">
+                <img src="assets/keirin_banner.png" alt="KEIRIN">
+            </a>
+
+            <a href="https://www.jka-cycle.jp/" target="_blank" rel="noopener noreferrer">
+                <img src="assets/jka_banner.png" alt="JKA">
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        Copyright © Nagoya Institute of Technology Takahashi Lab 2026-
+    </footer>
 </body>
 </html>
