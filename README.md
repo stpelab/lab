@@ -1,2 +1,3 @@
-# nitech-s-takahashi-lab.github.io
+# テストページ
 # 高橋　翔太郎
+# Shotaro Takahashi
